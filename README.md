@@ -1,7 +1,6 @@
-괜찮아 ㅋㅋ 실제 엑셀 기준이면 `備考`가 맞고, 그걸 휴일명으로 해석하는 구조로 README를 맞추면 돼. 아래는 바로 복붙 가능한 일본어 버전이야.
+# Import Morning Schedule Lambda
 
 ````markdown
-# Import Morning Schedule Lambda
 
 S3 にアップロードされた朝礼スケジュール Excel（`.xlsx`）を読み込み、
 担当者を `Users` テーブルと照合したうえで、DynamoDB の `Calendar` テーブルへ保存する AWS Lambda です。
